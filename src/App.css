@@ -40,3 +40,29 @@ body{
     transform: rotate(360deg);
   }
 }
+
+.card-container {
+    background-color: #E8EBEA !important;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    /* text-align: center; */
+    height: 200px;
+    vertical-align: middle;
+    /* margin: auto; */
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #393E3F;
+    font-family: "fantasy";
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+    border:none !important
+}

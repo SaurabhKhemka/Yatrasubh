@@ -1,6 +1,8 @@
 import { Box, Card, Container, Typography } from "@mui/material";
 import React from "react";
+import "./../../App.css";
 import "./policy.css";
+
 const PrivacyPolicy: React.FC = () => {
   return (
     <>
@@ -13,14 +15,15 @@ const PrivacyPolicy: React.FC = () => {
             Reservation of Rights
           </Typography>
           <Typography variant="subtitle2" gutterBottom>
-            We reserve the right to request that you remove all links or any
-            particular link to our Website. You approve to immediately remove
-            all links to our Website upon request. We also reserve the right to
-            amen these terms and conditions and it’s linking policy at any time.
-            By continuously linking to our Website, you agree to be bound to and
-            follow these linking terms and conditions.
+            <p>
+              We reserve the right to request that you remove all links or any
+              particular link to our Website. You approve to immediately remove
+              all links to our Website upon request. We also reserve the right
+              to amen these terms and conditions and it’s linking policy at any
+              time. By continuously linking to our Website, you agree to be
+              bound to and follow these linking terms and conditions.
+            </p>
           </Typography>
-          <p>&nbsp;</p>
           <Typography variant="h5" gutterBottom>
             Removal of links from our website
           </Typography>
@@ -38,7 +41,6 @@ const PrivacyPolicy: React.FC = () => {
               on the website is kept up to date.
             </p>
           </Typography>
-          <p>&nbsp;</p>
           <Typography variant="h5" gutterBottom>
             Disclaimer
           </Typography>

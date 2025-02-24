@@ -1,8 +1,6 @@
 .site-footer {
-
     background-color: rgb(244,244,244) !important;
-
-     color: #393E3F !important;
+    color: #393E3F !important;
     font-family: "fantasy";
     font-size: 25px;
     font-weight: 400;
@@ -13,8 +11,4 @@
     letter-spacing: 4px;
     border:none !important;
     box-shadow: none !important;
-}
-
-.home-icon {
-    color:darkgray !important
 }

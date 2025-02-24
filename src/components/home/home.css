@@ -1,13 +1,17 @@
 .card-containers {
-  width: 100%;
-  height: calc(100vh - 200px);
-        background-color: rgb(244,244,244) !important;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-color: rgb(244,244,244) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     border: none !important
+}
+
+.home-icon:hover {
+    background-color:rgb(244,244,244) !important;
+    cursor:default;
 }
 
 @media screen and (max-width: 512px) {

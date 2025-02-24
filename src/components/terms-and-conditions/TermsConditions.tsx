@@ -1,6 +1,8 @@
 import { Box, Card, Container, Typography } from "@mui/material";
 import React from "react";
-import "./policy.css";
+import "./../../App.css";
+import "./termsconditions.css";
+
 const TermsConditions: React.FC = () => {
   return (
     <>
@@ -11,19 +13,18 @@ const TermsConditions: React.FC = () => {
         <Box sx={{ width: "100%" }}>
           <Typography variant="subtitle2" gutterBottom>
             <p>
-              <strong>Welcome to VARYAA Creations !</strong>
+              <strong>Welcome to Yatrasubh: Make Travel Easy !</strong>
             </p>
             <p>
               These terms and conditions outline the rules and regulations for
-              the use of VARYAA Creations Website, located at
-              https://varyaacreations.com
+              the use of Yatrasubh Website, located at https://test.com
             </p>
             <p>
               By accessing this website we assume you accept these terms and
-              conditions. Do not continue to use VARYAA Creations Shop if you do
-              not agree to take all of the terms and conditions stated on this
-              page. Our Terms and Conditions were created with the help of the
-              Terms And Conditions Generator and the Privacy Policy Template.
+              conditions. Do not continue to use Yatrasubh if you do not agree
+              to take all of the terms and conditions stated on this page. Our
+              Terms and Conditions were created with the help of the Terms And
+              Conditions Generator and the Privacy Policy Template.
             </p>
             <p>
               The following terminology applies to these Terms and Conditions,
@@ -48,9 +49,8 @@ const TermsConditions: React.FC = () => {
           </Typography>
           <Typography variant="subtitle2" gutterBottom>
             <p>
-              We employ the use of cookies. By accessing VARYAA Creations Shop,
-              you agreed to use cookies in agreement with the VARYAA Creations
-              Shop Privacy Policy.
+              We employ the use of cookies. By accessing Yatrasubh, you agreed
+              to use cookies in agreement with the Yatrasubh Privacy Policy.
             </p>
             <p>
               Most interactive websites use cookies to let us retrieve the
@@ -60,48 +60,42 @@ const TermsConditions: React.FC = () => {
               partners may also use cookies.
             </p>
           </Typography>
-          <p>&nbsp;</p>
           <Typography variant="h5" gutterBottom>
             License
           </Typography>
           <Typography variant="subtitle2" gutterBottom>
             <p>
-              Unless otherwise stated, VARYAA Creations Shop and/or its
-              licensors own the intellectual property rights for all material on
-              VARYAA Creations Shop. All intellectual property rights are
-              reserved. You may access this from VARYAA Creations Shop for your
-              own personal use subjected to restrictions set in these terms and
-              conditions.
+              Unless otherwise stated, Yatrasubh and/or its licensors own the
+              intellectual property rights for all material on Yatrasubh. All
+              intellectual property rights are reserved. You may access this
+              from Yatrasubh for your own personal use subjected to restrictions
+              set in these terms and conditions.
             </p>
             <p>You must not:</p>
             <ul>
-              <li>Republish material from VARYAA Creations Shop</li>
-              <li>
-                Sell, rent or sub-license material from VARYAA Creations Shop
-              </li>
-              <li>
-                Reproduce, duplicate or copy material from VARYAA Creations Shop
-              </li>
-              <li>Redistribute content from VARYAA Creations Shop</li>
+              <li>Republish material from Yatrasubh</li>
+              <li>Sell, rent or sub-license material from Yatrasubh</li>
+              <li>Reproduce, duplicate or copy material from Yatrasubh</li>
+              <li>Redistribute content from Yatrasubh</li>
             </ul>
             <p>This Agreement shall begin on the date hereof.</p>
             <p>
               Parts of this website offer an opportunity for users to post and
               exchange opinions and information in certain areas of the website.
-              VARYAA Creations Shop does not filter, edit, publish or review
-              Comments prior to their presence on the website. Comments do not
-              reflect the views and opinions of VARYAA Creations Shop, its
-              agents and/or affiliates. Comments reflect the views and opinions
-              of the person who post their views and opinions. To the extent
-              permitted by applicable laws, VARYAA Creations Shop shall not be
-              liable for the Comments or for any liability, damages or expenses
-              caused and/or suffered as a result of any use of and/or posting of
-              and/or appearance of the Comments on this website.
+              Yatrasubh does not filter, edit, publish or review Comments prior
+              to their presence on the website. Comments do not reflect the
+              views and opinions of Yatrasubh, its agents and/or affiliates.
+              Comments reflect the views and opinions of the person who post
+              their views and opinions. To the extent permitted by applicable
+              laws, Yatrasubh shall not be liable for the Comments or for any
+              liability, damages or expenses caused and/or suffered as a result
+              of any use of and/or posting of and/or appearance of the Comments
+              on this website.
             </p>
             <p>
-              VARYAA Creations Shop reserves the right to monitor all Comments
-              and to remove any Comments which can be considered inappropriate,
-              offensive or causes breach of these Terms and Conditions.
+              Yatrasubh reserves the right to monitor all Comments and to remove
+              any Comments which can be considered inappropriate, offensive or
+              causes breach of these Terms and Conditions.
             </p>
             <p>You warrant and represent that:</p>
             <ul>
@@ -125,12 +119,11 @@ const TermsConditions: React.FC = () => {
               </li>
             </ul>
             <p>
-              You hereby grant VARYAA Creations Shop a non-exclusive license to
-              use, reproduce, edit and authorize others to use, reproduce and
-              edit any of your Comments in any and all forms, formats or media.
+              You hereby grant Yatrasubh a non-exclusive license to use,
+              reproduce, edit and authorize others to use, reproduce and edit
+              any of your Comments in any and all forms, formats or media.
             </p>
           </Typography>
-          <p>&nbsp;</p>
           <Typography variant="h5" gutterBottom>
             Hyperlinking to our Content
           </Typography>
@@ -183,8 +176,8 @@ const TermsConditions: React.FC = () => {
               ourselves or to our accredited businesses; (b) the organization
               does not have any negative records with us; (c) the benefit to us
               from the visibility of the hyperlink compensates the absence of
-              VARYAA Creations Shop; and (d) the link is in the context of
-              general resource information.
+              Yatrasubh; and (d) the link is in the context of general resource
+              information.
             </p>
             <p>
               These organizations may link to our home page so long as the link:
@@ -214,8 +207,8 @@ const TermsConditions: React.FC = () => {
                 linking party’s site.
               </li>
               <li>
-                No use of VARYAA Creations Shop logo or other artwork will be
-                allowed for linking absent a trademark license agreement.
+                No use of Yatrasubh logo or other artwork will be allowed for
+                linking absent a trademark license agreement.
               </li>
             </ul>
           </Typography>

@@ -1,9 +1,8 @@
 .site-header {
-
     background-color: rgb(244,244,244) !important;
     box-shadow: none !important;
 }
 
-.img-icon:hover {
+.home-icon:hover {
     background-color:rgb(244,244,244) !important
 }
