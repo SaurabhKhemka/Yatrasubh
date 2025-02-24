@@ -1,0 +1,20 @@
+.site-footer {
+
+    background-color: rgb(244,244,244) !important;
+
+     color: #393E3F !important;
+    font-family: "fantasy";
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+    border:none !important;
+    box-shadow: none !important;
+}
+
+.home-icon {
+    color:darkgray !important
+}

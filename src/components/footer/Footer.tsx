@@ -1,28 +1,37 @@
-import { Box, Link, Typography } from "@mui/material";
+import { AppBar, Box, Link, Toolbar, Typography } from "@mui/material";
+import "./footer.css";
 
 const Footer: React.FC = () => {
   return (
-    <Box
-      component="footer"
-      sx={{
-        mt: 5,
-        py: 3,
-        textAlign: "center",
-        borderTop: "1px solid #ddd",
-      }}
+    <AppBar
+      position="static"
+      sx={{ top: "auto", bottom: 0 }}
+      className="site-footer"
     >
-      <Typography variant="body2">
-        &copy; {new Date().getFullYear()} Your Company Name
-      </Typography>
-      <Box mt={1}>
-        <Link href="/privacy-policy" sx={{ mx: 1 }}>
-          Privacy Policy
-        </Link>
-        <Link href="/terms-conditions" sx={{ mx: 1 }}>
-          Terms & Conditions
-        </Link>
-      </Box>
-    </Box>
+      <Toolbar>
+        <Typography
+          variant="subtitle2"
+          sx={{ flexGrow: 1, textAlign: "center" }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              gap: 4,
+              padding: 2,
+              justifyContent: "center",
+            }}
+          >
+            <Link href="/privacy-policy" underline="hover">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-conditions" underline="hover">
+              Terms and Conditions
+            </Link>
+          </Box>
+          © {new Date().getFullYear()} Coming Soon. All Rights Reserved.
+        </Typography>
+      </Toolbar>
+    </AppBar>
   );
 };
 
