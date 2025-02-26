@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import PrivacyPolicy from "./components/privacy-policy/PrivacyPolicy";
+import RefundPolicy from "./components/refund-policy/RefundPolicy";
 import TermsConditions from "./components/terms-and-conditions/TermsConditions";
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
       </Routes>
       <Footer />
     </Router>

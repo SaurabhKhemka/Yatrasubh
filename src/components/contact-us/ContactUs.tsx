@@ -17,18 +17,23 @@ const ContactUs: React.FC = () => {
           </Typography>
           <Typography variant="subtitle2" gutterBottom>
             <p>
-              11, Floor – 3rd, Plot 5/1721, Kailash Darshan, Jagannath
-              Shankarseth Marg, Kennedy Bridge, Gamdevi, Grant Road, Mumbai MH
-              400007
+              Unit A/G-3, Malti Mangal Plaza G.T.Road,
+              <br />
+              Asansol
+              <br />
+              District: Paschim Bardhamman
+              <br />
+              West Bengal 713303
             </p>
             <p>&nbsp;</p>
             <p>
               <strong>General Inquiries &amp; Support</strong>
             </p>
             <p>
-              +91 700 123 8907
+              📞 Phone: <a href="tel:7001238907">+91 700 123 8907</a>
               <br />
-              care@yatrasubh.com
+              📧 Email:{" "}
+              <a href="mailto:care@yatrasubh.com">care@yatrasubh.com</a>
             </p>
           </Typography>
           <p>&nbsp;</p>

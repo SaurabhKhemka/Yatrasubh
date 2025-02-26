@@ -16,7 +16,11 @@ const Header: React.FC = () => {
           className="home-icon"
         >
           <a href="/">
-            <img src={icon} style={{ width: "100px", height: "100px" }}></img>
+            <img
+              src={icon}
+              style={{ width: "100px", height: "100px" }}
+              alt="home"
+            ></img>
           </a>
         </IconButton>
         <Typography variant="h6" sx={{ flexGrow: 1 }}></Typography>

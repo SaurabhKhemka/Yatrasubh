@@ -27,6 +27,9 @@ const Footer: React.FC = () => {
             <Link href="/terms-conditions" underline="hover">
               Terms and Conditions
             </Link>
+            <Link href="/refund-policy" underline="hover">
+              Refund Policy
+            </Link>
           </Box>
           © {new Date().getFullYear()} Coming Soon. All Rights Reserved.
         </Typography>
